@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  background-color: black;
+  background-image: url('https://res.cloudinary.com/yanninthesky/image/upload/v1594628616/B4252D68-E8C4-4DC6-91F9-B3B478607BB3_iehemn.jpg');
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.contact {
+  display: flex;
+  margin: 16px;
+  font-size: 24px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
