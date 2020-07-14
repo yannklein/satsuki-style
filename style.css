@@ -84,8 +84,7 @@ body {
     width: 400px;
   }
   .main-image {
-    background-position: 15% 50%;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,1)), url(main-img.jpg);
+    background-position: 18% 50%;
   }
   .title {
     text-shadow: 4px 4px 4px rgba(200,200,200, 0.1);
