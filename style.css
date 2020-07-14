@@ -84,6 +84,7 @@ body {
     width: 400px;
   }
   .main-image {
+    background-image: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,1)), url("main-img.jpg");
     background-position: 18% 50%;
   }
   .title {
