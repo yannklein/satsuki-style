@@ -62,7 +62,7 @@ body {
 }
 
 .main-image {
-  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url("main-img.jpg");
+  opacity: 0;
   background-size: cover;
   background-position: 25% 50%;
   position: absolute;
@@ -73,6 +73,12 @@ body {
   width: 500px;
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
+  transition: 1s opacity;
+}
+
+.active {
+  transition: 3s opacity;
+  opacity: 1;
 }
 
 @media (max-width: 900px ) {

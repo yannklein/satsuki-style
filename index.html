@@ -19,7 +19,12 @@
       <a href="mailto:contact@satsuki.style" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope-square"></i></a>
     </div>
   </div>
-  <div class="main-image"></div>
+  <div>
+    <div class="main-image active" style="background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url(main-img1.jpg);"></div>
+    <div class="main-image" style="background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url(main-img2.jpg);"></div>
+    <div class="main-image" style="background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url(main-img3.jpg);"></div>
+    <div class="main-image" style="background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url(main-img4.jpg);"></div>
+  </div>
   <script>
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
@@ -28,5 +33,6 @@
       document.documentElement.style.setProperty('--vh', `${vh}px`);
     });
   </script>
+  <script src="./index.js"></script>
 </body>
 </html>
