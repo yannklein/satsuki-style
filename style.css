@@ -93,15 +93,6 @@ body {
   color: rgb(250,250,250);
 }
 
-.eyelash-border {
-  position: absolute;
-  width: 100%;
-  min-width: 800px;
-  top: 0px;
-  left: 50%;
-  transform: translate(-50%, -50%) rotateX(0deg);
-}
-
 .second-part {
   background-color: rgb(250,250,250);
   color: rgb(10,10,10);
@@ -162,11 +153,6 @@ body {
   position: relative;
   font-style: italic;
 }
-
-.eyelash-third-part {
-  filter: invert(100%);
-}
-
 
 @media (max-width: 900px ) {
   .main-container {
