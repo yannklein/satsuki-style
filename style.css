@@ -26,11 +26,6 @@ body {
 
 .title {
   margin: 24px;
-  transition: text-shadow 1s;
-}
-
-.title:hover {
-  text-shadow: 8px 8px 2px rgba(200,200,200, 0.3);
 }
 
 .main-container {
@@ -40,6 +35,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  z-index: 2;
 }
 
 .contact {
@@ -79,6 +76,36 @@ body {
 .active {
   transition: 3s opacity;
   opacity: 1;
+}
+
+.arrow-down {
+  position: absolute;
+  bottom: 24px;
+  text-align: center;
+  font-size: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arrow-down a {
+  color: white;
+}
+
+.eyelash-border {
+  position: absolute;
+  width: 100%;
+  min-width: 800px;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateX(0deg);
+}
+
+.second-part {
+  background-color: white;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 @media (max-width: 900px ) {
