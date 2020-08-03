@@ -13,20 +13,34 @@ const changePicture = () => {
 
 setInterval(changePicture, 5000);
 
+// const secondEyelash = document.querySelector(".eyelash-second-part");
+// const secondPart = document.querySelector(".second-part");
 
-const openEyelash = (event) => {
-  console.log(window.scrollY);
-  const eyelash = document.querySelector(".eyelash-border");
-  const thres = window.innerHeight / 2;
-  if (window.scrollY > thres) {
-    const deg = (window.scrollY - thres) / 1.4 ** 2;
-    console.log(window.scrollY - thres, deg);
-    if (deg < 90) {
-      eyelash.style.transform = `translate(-50%, -50%) rotateX(${deg}deg)`;
-    } else {
-      eyelash.style.transform = `translate(-50%, -50%) rotateX(90deg)`;
-    }
-  }
-};
+// const thirdEyelash = document.querySelector(".eyelash-third-part");
+// const thirdPart = document.querySelector(".third-part");
 
-document.addEventListener("scroll", openEyelash );
+// const openEyelash = (event) => {
+//   // Second part eyelash eyelash
+//   const thresSecond = - secondPart.getBoundingClientRect().top + (secondPart.offsetHeight / 2);
+//   if (thresSecond > 0) {
+//     const deg = thresSecond / 1.5 ** 2;
+//     if (deg < 90) {
+//       secondEyelash.style.transform = `translate(-50%, -50%) rotateX(${deg}deg)`;
+//     } else {
+//       secondEyelash.style.transform = `translate(-50%, -50%) rotateX(90deg)`;
+//     }
+//   }
+
+//   // Third part eyelash eyelash
+//   const thresThird = - thirdPart.getBoundingClientRect().top + (thirdPart.offsetHeight / 2);
+//   if (thresThird > 0) {
+//     const deg = thresThird / 1.5 ** 2;
+//     if (deg < 90) {
+//       thirdEyelash.style.transform = `translate(-50%, -50%) rotateX(${deg}deg)`;
+//     } else {
+//       thirdEyelash.style.transform = `translate(-50%, -50%) rotateX(90deg)`;
+//     }
+//   }
+// };
+
+// document.addEventListener("scroll", openEyelash );
