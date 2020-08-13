@@ -4,6 +4,10 @@
   --brown: #0F0907;
 }
 
+/*html {
+  scroll-behavior: smooth;
+}*/
+
 body {
   background: linear-gradient(90deg, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../images/main-img1.jpg' );
   margin: 0;
