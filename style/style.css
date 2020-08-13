@@ -186,7 +186,8 @@ body {
 @media (max-width: 700px ) {
   body {
     background: linear-gradient(90deg, rgba(163,84,52,1) 0%, rgba(117,159,174,1) 66%), url('../images/main-img1.jpg');
-    background-position: 44% 18%;
+    background-position: 29% 50%;
+    background-repeat: no-repeat;
   }
 
   .main-container {
