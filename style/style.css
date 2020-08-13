@@ -114,6 +114,7 @@ body {
 .resume {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
   padding: 24px 0;
   grid-gap: 48px;
 }
@@ -127,29 +128,29 @@ body {
 }
 
 .second-part h2 {
-  font-size: 24px;
+  font-size: 40px;
 }
 
 .second-part p {
   line-height: 1.8em;
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
   margin-bottom: 24px;
 }
 
 .second-part .img-satsuki {
   width: 100%;
-  height: 100%;
+  height: 400px;
   object-fit: cover;
-  object-position: 50% 50%;
+  object-position: 50% 32%;
 }
 
 .second-part .img-lashes {
   width: 100%;
-  height: 100%;
+  height: 400px;
   object-fit: cover;
   object-position: 50% 50%;
-  transform: rotateY(0deg);
+  transform: rotateY(180deg);
 }
 
 .second-part .experience {
@@ -161,6 +162,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .img-grid img {
@@ -214,7 +216,8 @@ body {
   }
 
   .second-part .img-satsuki {
-    height: auto;
+    height: 420px;
+    object-fit: scale-down;
   }
 
   .second-part .img-lashes {
@@ -223,6 +226,10 @@ body {
 
   .second-part .experience {
     align-items: center;
+  }
+
+  .second-part h2 {
+    font-size: 24px;
   }
 
   .second-part p {
