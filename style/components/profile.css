@@ -6,6 +6,7 @@
   width: 100%;
   position: relative;
   font-style: italic;
+  padding: 64px 0;
 }
 
 .profile {
@@ -20,12 +21,9 @@
   grid-column: 1 / span 2;
 }
 
-.profile-part {
-  padding: 32px 0;
-}
-
 .profile-part h2 {
   font-size: 32px;
+  margin-bottom: 24px;
 }
 
 .profile-part p {

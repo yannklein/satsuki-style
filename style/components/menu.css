@@ -1,0 +1,44 @@
+.menu-part {
+  padding: 64px 0;
+  background: -webkit-linear-gradient(left, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img4.png' );
+  background: -o-linear-gradient(left, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img4.png' );
+  background: linear-gradient(to right, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img4.png' );
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: rgb(40,40,40);
+  margin: 0;
+  width: 100%;
+  font-style: italic;
+}
+
+.menu-part h2 {
+  margin: 0;
+  margin-bottom: 32px;
+  font-size: 32px;
+}
+
+.menu-part h3 {
+  font-size: 20px;
+}
+
+.menu-part ul {
+  list-style: none;
+  padding-left: 8px;
+}
+
+.menu-part li {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+.menu-part li p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .menu-part h2 {
+    font-size: 24px;
+  }
+}

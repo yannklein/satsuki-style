@@ -1,0 +1,38 @@
+.insta-part {
+  background-color: rgb(250,250,250);
+  color: rgb(40,40,40);
+  margin: 0;
+  width: 100%;
+  font-style: italic;
+  padding: 64px 0;
+}
+
+.insta-part h2 {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.insta-part p {
+  line-height: 1.8em;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.insta-part a {
+  background: -webkit-linear-gradient(left, rgba(163,84,52,1), rgba(117,159,174,1) 33%);
+  background: -o-linear-gradient(left, rgba(163,84,52,1), rgba(117,159,174,1) 33%);
+  background: linear-gradient(to right, rgba(163,84,52,1), rgba(117,159,174,1) 33%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 700px) {
+  .insta-part h2 {
+    font-size: 24px;
+  }
+
+  .insta-part p {
+    font-size: 16px;
+  }
+}

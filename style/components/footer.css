@@ -1,0 +1,26 @@
+.footer {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(left, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img4.png' );
+  background: -o-linear-gradient(left, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img4.png' );
+  background: linear-gradient(to right, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img4.png' );
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.footer p:first-child {
+  margin-right: 24px;
+}
+
+.footer a {
+  color: rgba(163,84,52,1);
+}
+
+@media (max-width: 700px ) {
+  .footer p {
+    font-size: 12px;
+  }
+}
