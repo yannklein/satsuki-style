@@ -10,17 +10,17 @@
 <body>
   <div class="main-container">
     <div class="banner">
-      <div class="title">
+      <div class="banner-title">
         <h1>Satsuki Takahara</h1>
         <p>Eyelash Stylist</p>
       </div>
-      <div class="contact">
+      <div class="banner-contact">
         <a href="https://www.instagram.com/lucy_eyelash_beauty/"><i class="fab fa-instagram-square"></i></a>
         <!-- <a href="#"><i class="fab fa-facebook-square"></i></a> -->
         <a href="mailto:contact@satsuki.style" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope-square"></i></a>
         <a href="https://line.me/ti/p/5aP_PLt8fy" target="_blank" rel="noopener noreferrer"><i class="fab fa-line"></i></a>
       </div>
-      <div class="arrow-down">
+      <div class="banner-arrow-down">
         <a href="#second-part"><i class="fas fa-chevron-down"></i></a>
       </div>
     </div>
@@ -49,47 +49,36 @@
       </div>
     </div>
   </div>
-  <!-- <div class="third-part">
-    <div class="contact">
-      <h2>Some of my work</h2>
-
+  <div class="third-part">
+    <div class="main-container">
+      <h2>My eyelash menu</h2>
+      <h3>Standard eyelash extensions</h3>
+      <ul>
+        <li><p>100 lashes</p><p>AU$40</p></li>
+        <li><p>120 lashes</p><p>AU$50</p></li>
+        <li><p>140 lashes</p><p>AU$60</p></li>
+        <li><p>160 lashes</p><p>AU$70</p></li>
+      </ul>
+      <p><strong>Option:</strong> brown color lashes + AU$10</p>
+      <h3>Volume eyelash extensions</h3>
+      <ul>
+        <li><p>80 fans</p><p>AU$60</p></li>
+        <li><p>100 fans</p><p>AU$80</p></li>
+        <li><p>120 fans</p><p>AU$100</p></li>
+        <li><p>140 fans</p><p>AU$120</p></li>
+      </ul>
     </div>
-  </div> -->
-  <script>
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-    // window.addEventListener('resize', () => {
-    //   let vh = window.innerHeight * 0.01;
-    //   document.documentElement.style.setProperty('--vh', `${vh}px`);
-    // });
-  </script>
-  <script src="./index.js"></script>
+  </div>
+  <div class="fourth-part">
+    <div class="main-container">
+      <h2>Some of my recent work</h2>
+      <p>You can find more on my <a href="https://www.instagram.com/lucy_eyelash_beauty/">Instagram account.</a></p>
+      <div class="cards">
+
+      </div>
+    </div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
-    });
-  });
-  </script>
+  <script src="./index.js"></script>
 </body>
 </html>

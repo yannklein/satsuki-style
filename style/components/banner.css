@@ -1,0 +1,61 @@
+.banner {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.banner-title h1 {
+  font-size: 96px;
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0;
+  text-shadow: 0 0 16px rgba(240,240,240, 0.3);
+}
+
+.banner-title p {
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+  margin-top: 8px;
+  text-shadow: 0 0 16px rgba(240,240,240, 0.3);
+}
+
+.banner-title {
+  margin-bottom: 24px;
+}
+
+.banner-contact {
+  display: flex;
+  font-size: 64px;
+}
+
+
+.banner-contact a {
+  margin-right: 24px;
+  text-decoration: none;
+  color: var(--brown);
+  transition: color 0.3s;
+}
+
+.banner-contact a:hover {
+  transition: 0.3s;
+  text-shadow: 0 0 16px rgba(240,240,240, 0.5);
+}
+
+.banner-arrow-down {
+  position: absolute;
+  bottom: 24px;
+  text-align: center;
+  font-size: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.banner-arrow-down a {
+  color: var(--brown);
+}
+
