@@ -1,0 +1,143 @@
+.profile-part {
+  min-height: calc(var(--vh, 1vh) * 100);
+  background-color: rgb(250,250,250);
+  color: rgb(10,10,10);
+  margin: 0;
+  width: 100%;
+  position: relative;
+  font-style: italic;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 24px 0;
+  grid-gap: 48px;
+}
+
+.profile-description {
+  grid-column: 1 / span 2;
+}
+
+.profile-part {
+  padding: 32px 0;
+}
+
+.profile-part h2 {
+  font-size: 32px;
+}
+
+.profile-part p {
+  line-height: 1.8em;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.profile-img-satsuki {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 32%;
+}
+
+.profile-img-lashes {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  transform: rotateY(180deg);
+}
+
+.profile-experience {
+  grid-column: 2 / span 2;
+}
+
+.profile-salons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.profile-salons img {
+  height: 32px;
+}
+
+@media (max-width: 1000px ) {
+
+  .profile-part h2 {
+    font-size: 32px;
+  }
+
+  .profile-part p {
+    line-height: 1.2em;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  .profile-salons img {
+    height: 32px;
+  }
+}
+
+@media (max-width: 800px ) {
+
+  .profile-salons img {
+    height: 24px;
+  }
+}
+
+@media (max-width: 700px ) {
+
+  .profile {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-description {
+    grid-column: 1;
+  }
+
+  .profile-experience {
+    grid-column: 1;
+  }
+
+  .profile-img-satsuki {
+    height: 420px;
+    object-fit: scale-down;
+  }
+
+  .profile-img-lashes {
+    display: none;
+  }
+
+  .profile-experience {
+    align-items: center;
+  }
+
+  .profile-part h2 {
+    font-size: 24px;
+  }
+
+  .profile-part p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .profile-description p {
+    width: 100%;
+  }
+
+  .profile-salons {
+    flex-direction: column;
+  }
+
+  .profile-salons img {
+    height: 40px;
+    margin-bottom: 24px;
+  }
+}
