@@ -3,9 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: -webkit-linear-gradient(left, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img4.png' );
-  background: -o-linear-gradient(left, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img4.png' );
-  background: linear-gradient(to right, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img4.png' );
+  background: -webkit-linear-gradient(left, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img2.png' );
+  background: -o-linear-gradient(left, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img2.png' );
+  background: linear-gradient(to right, rgba(163,84,52,1), rgba(117,159,174,1) 33%), url('../../images/main-img2.png' );
   background-blend-mode: lighten;
   background-size: cover;
   background-position: 50% 50%;
