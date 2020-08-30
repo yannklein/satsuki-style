@@ -41,7 +41,7 @@
   .menu-part {
     background: linear-gradient(to right, rgba(163,84,52,1), rgba(117,159,174,0.7) 53%), url(../../images/test/p.jpg);
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 10% 30%;
   }
   .menu-part h2 {
     font-size: 24px;
