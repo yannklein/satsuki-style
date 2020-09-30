@@ -15,9 +15,9 @@
 }
 
 body {
-  background: -webkit-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%), url('../images/test/a.jpg' );
-  background: -o-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%), url('../images/test/a.jpg' );
-  background: linear-gradient(to right, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%), url('../images/test/a.jpg' );
+  background: -webkit-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%), url('../images/IMG_3719.JPG' );
+  background: -o-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%), url('../images/IMG_3719.JPG' );
+  background: linear-gradient(to right, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%), url('../images/IMG_3719.JPG' );
   margin: 0;
   font-family: 'Playfair Display', serif;
   color: var(--brown);
