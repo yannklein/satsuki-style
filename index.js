@@ -52,7 +52,7 @@ const insta_imgs = data.edge_owner_to_timeline_media.edges
 const card_elements = insta_imgs.map(img => {
   return `
     <a href="https://www.instagram.com/lucy_eyelash_beauty/" target="_blank">
-      <div class="card-insta" style="background-image: url('${img.node.display_url}')" alt="instagram eylash photo">
+      <div class="card-insta" style="background-image: url('https://cdn.satsuki.style/${img.node.display_url}')" alt="instagram eylash photo">
       </div>
     </a>
     `;
