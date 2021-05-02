@@ -8,25 +8,6 @@
   z-index: 2;
 }
 
-.banner-teaser {
-  width: 100vw;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-}
-
-.banner-teaser-wrapper {
-  width: 100vw;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-  background: -webkit-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%);
-  background: -o-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%);
-  background: linear-gradient(to right, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%);
-}
-
 .banner-title h1 {
   font-size: 96px;
   font-weight: normal;

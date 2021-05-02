@@ -1,9 +1,9 @@
 .menu-part {
   padding: 64px 0;
-  background: -webkit-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%), url('../../images/IMG_3717.JPG' );
+/*  background: -webkit-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%), url('../../images/IMG_3717.JPG' );
   background: -o-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%), url('../../images/IMG_3717.JPG' );
   background: linear-gradient(to right, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%), url('../../images/IMG_3717.JPG' );
-  /*background-blend-mode: lighten;*/
+*/  /*background-blend-mode: lighten;*/
   background-size: cover;
   background-position: 0% 30%;
   color: var(--brown);
@@ -11,6 +11,7 @@
   margin: 0;
   width: 100%;
   font-style: italic;
+  position: relative;
 }
 
 .menu-part h2 {
@@ -40,10 +41,10 @@
 
 @media (max-width: 700px) {
   .menu-part {
-    background: linear-gradient(to right, rgba(163,84,52,1), rgba(117,159,174,0.7) 53%), url(../../images/IMG_3717.JPG);
+/*    background: linear-gradient(to right, rgba(163,84,52,1), rgba(117,159,174,0.7) 53%), url(../../images/IMG_3717.JPG);
     background-size: cover;
     background-position: 10% 30%;
-  }
+*/  }
   .menu-part h2 {
     font-size: 24px;
   }

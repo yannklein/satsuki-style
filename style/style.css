@@ -9,6 +9,7 @@
 @import url('components/insta.css');
 @import url('components/container.css');
 @import url('components/footer.css');
+@import url('components/teaser.css');
 
 :root {
   --brown: #0F0907;
