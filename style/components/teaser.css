@@ -16,8 +16,14 @@
   top: 0;
   position: absolute;
   object-fit: cover;
-  background: -webkit-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%);
+/*  background: -webkit-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%);
   background: -o-linear-gradient(left, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%);
-  background: linear-gradient(to right, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%);
+  background: linear-gradient(to right, rgba(163,84,52,0.7), rgba(117,159,174,0.6) 33%);*/
   z-index: -1;
+}
+
+.teaser-wrapper.left-shadow {
+  background: -webkit-linearl-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.8) 20%, rgba(0,0,0,0) 100%);
+  background: -o-linear-gradient(to right,rgba(0,0,0,1), rgba(0,0,0,0.8) 20%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(to right,rgba(0,0,0,1), rgba(0,0,0,0.8) 20%, rgba(0,0,0,0) 100%);
 }

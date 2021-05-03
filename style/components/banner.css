@@ -2,8 +2,9 @@
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   justify-content: center;
+  align-items: flex-end;
   position: relative;
   z-index: 2;
 }
@@ -25,19 +26,22 @@
 }
 
 .banner-title {
-  margin-bottom: 24px;
+  /*margin-bottom: 24px;*/
 }
 
 .banner-contact {
   display: flex;
   font-size: 64px;
+  margin-bottom: 80px;
 }
 
 
 .banner-contact a {
-  margin-right: 24px;
+  margin: 16px;
   text-decoration: none;
-  color: var(--brown);
+  color: white;
+  text-shadow: 0 0 8px rgba(0,0,0,0.2);
+
   transition: color 0.3s;
 }
 
@@ -56,7 +60,8 @@
 }
 
 .banner-arrow-down a {
-  color: var(--brown);
+  color: white;
+  text-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
 
 @media (max-width: 1000px ) {
