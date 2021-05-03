@@ -1,11 +1,11 @@
 .profile-part {
-  min-height: calc(var(--vh, 1vh) * 100);
+  /*min-height: calc(var(--vh, 1vh) * 100);*/
   background-color: rgb(250,250,250);
   color: rgb(10,10,10);
   margin: 0;
   width: 100%;
   position: relative;
-  font-style: italic;
+  /*font-style: italic;*/
   padding: 64px 0;
 }
 
